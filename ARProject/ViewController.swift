@@ -60,6 +60,7 @@ final class ViewController: UIViewController {
         return lipstickModel
     }
     
+    
     private var planeNode : SCNNode!
     
     private var isTopCollected : Bool = false
@@ -85,7 +86,47 @@ final class ViewController: UIViewController {
         
         DispatchQueue.main.sync {
             planeNode.addChildNode(lipstickModel!)
+            
+            
+            
+                // MARK:- Particle System
+                //creating a Particle System //SceneKitParticleSystem1
+//                let stars =  SCNParticleSystem(named: "star.scnp", inDirectory: nil)!
+//
+//                let starsnode = SCNNode()
+//                starsnode.position = SCNVector3(x: 0, y: 0, z: 0)
+//                starsnode.addParticleSystem(stars)
+//
+//                //adding a Particle System in scene
+//               // scene.rootNode.addParticleSystem(stars)
+//                scene.rootNode.addChildNode(starsnode)
+            
+            
+
+            
         }
+         DispatchQueue.main.async {
+//             let textTodraw = SCNText(string: "Congo You have Collected all products", extrusionDepth: 3)
+//             //textTodraw.firstMaterial?.transparency = transparency
+//             textTodraw.firstMaterial?.diffuse.contents = UIColor.red
+//             let textNode = SCNNode(geometry: textTodraw)
+//
+//            textNode.transform = SCNMatrix4MakeRotation(Float.pi / 2, 1, 0, 0)
+//
+//            textNode.scale = SCNVector3(0.001, 0.001, 0.001)
+//            textNode.position = SCNVector3(-0.1, 0.2, 0)
+//            self.planeNode!.addChildNode(textNode)
+            
+            let alertVC = UIAlertController(title: "Won", message: "All Products Collected", preferredStyle: .alert)
+            
+            let okAction = UIAlertAction(title: "OK", style: .default) { (action) in
+                print("OKAy manh")
+            
+            }
+            alertVC.addAction(okAction)
+            self.present(alertVC, animated: true)
+            
+            }
     }
     
     override func viewDidLoad() {
@@ -103,6 +144,19 @@ final class ViewController: UIViewController {
         
         //setting Sceneview Scene
         arscnView.scene = scene
+        
+        
+        let stars =  SCNParticleSystem(named: "star.scnp", inDirectory: nil)!
+        
+        let starsnode = SCNNode()
+        starsnode.position = SCNVector3(x: 0, y: 0, z: -5)
+        starsnode.addParticleSystem(stars)
+        
+
+        
+        //adding a Particle System in scene
+        // scene.rootNode.addParticleSystem(stars)
+        scene.rootNode.addChildNode(starsnode)
         
     }
     
@@ -364,18 +418,6 @@ extension ViewController : ARSCNViewDelegate{
             guard let result = arscnView.hitTest(viewTouchLocation, options: nil).first else {
                 return
             }
-            //            if let lipstickModel = lipstickModel, lipstickModel.name == result.node.name {
-            //
-            //                print("match")
-            //
-            //               lipstickModel.addChildNode(videoNode())
-            //
-            //
-            //
-            //            }
-            //            else{
-            //                print("WTH man")
-            //            }
             
             switch result.node.name{
             case lipstickModel?.name:

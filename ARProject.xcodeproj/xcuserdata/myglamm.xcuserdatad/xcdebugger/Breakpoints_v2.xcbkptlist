@@ -12,11 +12,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ARProject/ViewController.swift"
+            timestampString = "0"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "191"
             endingLineNumber = "191"
-            landmarkName = "renderer(_:nodeFor:)"
+            landmarkName = "scatterLipstickParts(node:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

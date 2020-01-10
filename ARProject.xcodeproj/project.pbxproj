@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8909EDF223C8A96000B69D07 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 8909EDF023C8A96000B69D07 /* spark.png */; };
+		8909EDF923C8A9CE00B69D07 /* Smoke.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 8909EDF823C8A9CE00B69D07 /* Smoke.scnp */; };
+		8909EDFC23C8A9E300B69D07 /* star.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 8909EDFA23C8A9E300B69D07 /* star.scnp */; };
+		8909EDFD23C8A9E300B69D07 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 8909EDFB23C8A9E300B69D07 /* star.png */; };
 		899AFA6123C85E1F00358C4C /* LIPSTICK_MIDDLE_PART.dae in Resources */ = {isa = PBXBuildFile; fileRef = 899AFA5E23C85E1F00358C4C /* LIPSTICK_MIDDLE_PART.dae */; };
 		899AFA6223C85E1F00358C4C /* LIPSTICK_UPPER_PART.dae in Resources */ = {isa = PBXBuildFile; fileRef = 899AFA5F23C85E1F00358C4C /* LIPSTICK_UPPER_PART.dae */; };
 		899AFA6323C85E1F00358C4C /* LIPSTICK_BOTTOM_PART.dae in Resources */ = {isa = PBXBuildFile; fileRef = 899AFA6023C85E1F00358C4C /* LIPSTICK_BOTTOM_PART.dae */; };
-		899AFA6623C8634100358C4C /* smkey.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 899AFA6423C8634100358C4C /* smkey.scnp */; };
 		899AFA6723C8634100358C4C /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 899AFA6523C8634100358C4C /* smoke.png */; };
 		89C17F5123C86843007FF48F /* model_id_1.dae in Resources */ = {isa = PBXBuildFile; fileRef = 89C17F4F23C86843007FF48F /* model_id_1.dae */; };
 		89C17F5223C86843007FF48F /* Triceratops_Black_Diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89C17F5023C86843007FF48F /* Triceratops_Black_Diffuse.jpg */; };
+		89C17F5623C8BBBA007FF48F /* smkey.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 89C17F5523C8BBBA007FF48F /* smkey.scnp */; };
 		B06C9B2F23C234CC00B44116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06C9B2E23C234CC00B44116 /* AppDelegate.swift */; };
 		B06C9B3123C234CC00B44116 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06C9B3023C234CC00B44116 /* SceneDelegate.swift */; };
 		B06C9B3323C234CC00B44116 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06C9B3223C234CC00B44116 /* ViewController.swift */; };
@@ -44,13 +48,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8909EDF023C8A96000B69D07 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		8909EDF823C8A9CE00B69D07 /* Smoke.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Smoke.scnp; sourceTree = "<group>"; };
+		8909EDFA23C8A9E300B69D07 /* star.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = star.scnp; sourceTree = "<group>"; };
+		8909EDFB23C8A9E300B69D07 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		899AFA5E23C85E1F00358C4C /* LIPSTICK_MIDDLE_PART.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = LIPSTICK_MIDDLE_PART.dae; sourceTree = "<group>"; };
 		899AFA5F23C85E1F00358C4C /* LIPSTICK_UPPER_PART.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = LIPSTICK_UPPER_PART.dae; sourceTree = "<group>"; };
 		899AFA6023C85E1F00358C4C /* LIPSTICK_BOTTOM_PART.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = LIPSTICK_BOTTOM_PART.dae; sourceTree = "<group>"; };
-		899AFA6423C8634100358C4C /* smkey.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = smkey.scnp; sourceTree = "<group>"; };
 		899AFA6523C8634100358C4C /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
 		89C17F4F23C86843007FF48F /* model_id_1.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = model_id_1.dae; sourceTree = "<group>"; };
 		89C17F5023C86843007FF48F /* Triceratops_Black_Diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Triceratops_Black_Diffuse.jpg; sourceTree = "<group>"; };
+		89C17F5523C8BBBA007FF48F /* smkey.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = smkey.scnp; sourceTree = "<group>"; };
 		B06C9B2B23C234CC00B44116 /* ARProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06C9B2E23C234CC00B44116 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B06C9B3023C234CC00B44116 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,8 +138,12 @@
 				B06C9B3023C234CC00B44116 /* SceneDelegate.swift */,
 				B06C9B3223C234CC00B44116 /* ViewController.swift */,
 				B06C9B6623C2450D00B44116 /* lipsticks2.dae */,
+				8909EDF023C8A96000B69D07 /* spark.png */,
+				89C17F5523C8BBBA007FF48F /* smkey.scnp */,
+				8909EDF823C8A9CE00B69D07 /* Smoke.scnp */,
+				8909EDFA23C8A9E300B69D07 /* star.scnp */,
+				8909EDFB23C8A9E300B69D07 /* star.png */,
 				899AFA6023C85E1F00358C4C /* LIPSTICK_BOTTOM_PART.dae */,
-				899AFA6423C8634100358C4C /* smkey.scnp */,
 				899AFA6523C8634100358C4C /* smoke.png */,
 				899AFA5E23C85E1F00358C4C /* LIPSTICK_MIDDLE_PART.dae */,
 				899AFA5F23C85E1F00358C4C /* LIPSTICK_UPPER_PART.dae */,
@@ -272,11 +284,15 @@
 				899AFA6723C8634100358C4C /* smoke.png in Resources */,
 				899AFA6223C85E1F00358C4C /* LIPSTICK_UPPER_PART.dae in Resources */,
 				B06C9B6723C2450D00B44116 /* lipsticks2.dae in Resources */,
+				8909EDFD23C8A9E300B69D07 /* star.png in Resources */,
 				89C17F5223C86843007FF48F /* Triceratops_Black_Diffuse.jpg in Resources */,
 				899AFA6323C85E1F00358C4C /* LIPSTICK_BOTTOM_PART.dae in Resources */,
+				8909EDF923C8A9CE00B69D07 /* Smoke.scnp in Resources */,
 				B06C9B3823C234CD00B44116 /* Assets.xcassets in Resources */,
-				899AFA6623C8634100358C4C /* smkey.scnp in Resources */,
+				8909EDFC23C8A9E300B69D07 /* star.scnp in Resources */,
 				B06C9B3623C234CC00B44116 /* Main.storyboard in Resources */,
+				8909EDF223C8A96000B69D07 /* spark.png in Resources */,
+				89C17F5623C8BBBA007FF48F /* smkey.scnp in Resources */,
 				899AFA6123C85E1F00358C4C /* LIPSTICK_MIDDLE_PART.dae in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
